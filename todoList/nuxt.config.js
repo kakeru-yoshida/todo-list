@@ -30,8 +30,6 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-    // https://go.nuxtjs.dev/stylelint
-    '@nuxtjs/stylelint-module',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -39,10 +37,4 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
-  
-  router: {
-    middleware: 'authenticated'
-    // 複数ファイル指定の場合は配列で
-    // middleware: ['authenticated', 'stats']
-  }
 }
